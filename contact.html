@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+      <title>CSCE 102 Final Project</title>
+      <meta charset="utf-8">
+</head>
+<body>
+   
+    <div id="content">
+        <header>
+            <h1>Zach Watford</h1>
+        </header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+	<main>
+    <h2>Directions</h2>
+                <p><strong>Watford and Associates LLP</strong></p>
+                <p>115 Main St</p>
+                <p>West Hartford, CT 06107</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d6458764.595198905!2d-81.33230643139524!3d37.77378083310612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d33.9648463!2d-81.0195011!4m5!1s0x89e7ace55623cf1d%3A0xcb02657cd5312596!2s115%20S%20Main%20St%2C%20West%20Hartford%2C%20CT%2006107!3m2!1d41.7542967!2d-72.74467369999999!5e0!3m2!1sen!2sus!4v1681779995759!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div id="contact-div">
+            <h2>Contact Me</h2>
+		<form action="https://api.web3forms.com/submit" method="POST">
+			<input type="hidden" name="access_key" value="b4343fc8-f633-4616-b4d9-2a55a87d91cf">
+			<label for="name-in">Name</label>
+				<input type="text" name="name" id="name-in" required>
+			<label for="email-in">Email</label>
+				<input type="email" name="email" id="email-in" required>
+			<p id="message-label"><label for="message-in">Message</label></p>
+				<textarea name="message" id="message-in" required></textarea>
+		<input type="hidden" name="redirect" value="https://web3forms.com/success">
+    <p><button type="submit">Send</button></p>
+
+</form>
+            </div>
+		</main>
+         <footer>
+            <p>&copy;Zach</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+      <title>CSCE 102 Final Project</title>
+      <meta charset="utf-8">
+</head>
+<body>
+   
+    <div id="content">
+        <header>
+            <h1>Zach Watford</h1>
+        </header>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        <main>
+			<h2>Website Development Quiz</h2>
+			<ol id="quiz">
+			<li>
+				<label for="question-1">Which language allows you to write basic text directly on a webpage?</label>
+				<select id="question-1">
+					<option value="css">CSS</option>
+					<option value="html">HTML</option>
+					<option value="js">JavaScript</option>
+					<option value="python">Python</option>
+				</select>
+				</li>
+				<li>
+				<label for="question-2">Which language allows you to style your written code?</label>
+				<select id="question-2">
+					<option value="html">HTML</option>
+					<option value="css">CSS</option>
+					<option value="python">Python</option>
+					<option value="js">JavaScript</option>
+				</select>
+				</li>
+				<li>
+				<label for="question-3">Which language allows you to write functions?</label>
+				<select id="question-3">
+					<option value="python">Python</option>
+					<option value="css">CSS</option>
+					<option value="html">HTML</option>
+					<option value="js">JavaScript</option>
+				</select>
+				</li>
+				<li>
+				<label for="question-4">What is the correct way to edit the style of a class in CSS?</label>
+				<select id="question-4">
+					<option value="1">#hidden</option>
+					<option value="2">hidden</option>
+					<option value="3">.hidden</option>
+					<option value="4">hidden()</option>
+				</select>
+				</li>
+			</ol>
+			<button id="quiz-results" onclick="showResults()">Submit</button>
+			<h3 id="quiz-score" class="hidden">Quiz Results:</h3>
+			<div id="result">
+			</div>
+        </main>
+        <footer>
+            <p>&copy;Zach</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
